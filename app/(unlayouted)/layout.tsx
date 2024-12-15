@@ -3,7 +3,7 @@ import { PropsWithChildren } from "react";
 const Layout = async (props: PropsWithChildren) => {
   return (
     <div>
-      <div>{`App->(Unlayouted)->Layout`}</div>
+      <div>{`No side-bar here`}</div>
       <div>{props.children}</div>
     </div>
   );
