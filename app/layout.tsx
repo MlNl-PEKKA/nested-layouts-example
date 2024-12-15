@@ -27,6 +27,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* {ONLY ESSENTIAL TAGS HERE} */}
         <div>{children}</div>
       </body>
     </html>
